@@ -1,0 +1,109 @@
+body {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.ball {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    top: 296px;
+    left: 150px;
+    animation-name: bounce;
+    animation-duration: 20000ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
+
+@keyframes bounce {
+    5% {
+        top: 100px;
+        left: 0px;
+    }
+
+    10% {
+        top: 0px;
+    }
+
+    15% {
+        top: 200px;
+        left: 300px;
+    }
+
+    20% {
+        top: 296px;
+    }
+
+    25% {
+        top: 50px;
+        left: 0px;
+    }
+
+    30% {
+        top: 0px;
+    }
+
+    35% {
+        top: 100px;
+        left: 300px;
+    }
+
+    40% {
+        top: 296px;
+    }
+
+    45% {
+        top: 40px;
+        left: 0px;
+    }
+
+    50% {
+        top: 0px;
+    }
+
+    55% {
+        top: 250px;
+        left: 300px;
+    }
+
+    60% {
+        top: 296px;
+    }
+
+    65% {
+        top: 30px;
+        left: 0px;
+    }
+
+    70% {
+        top: 0px;
+    }
+
+    75% {
+        top: 270px;
+        left: 300px;
+    }
+
+    80% {
+        top: 296px;
+    }
+
+    85% {
+        top: 0px;
+        left: 0px;
+    }
+
+    95% {
+        top: 270px;
+        left: 300px;
+    }
+
+    100% {
+        top: 296px;
+    }
+}
